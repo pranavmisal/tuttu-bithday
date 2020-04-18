@@ -22,6 +22,29 @@ h1{
 	font-weight: 900;
 }
 
+h3{
+	text-transform: capitalize;
+	font-weight: 900;
+}
+
 .section1 .container{
 	padding: 50px 100px;
+}
+
+.section1 .ballon{
+	position: absolute;
+	right: -15px;
+	height: 50vh;
+}
+
+.section1 .cake{
+	height: 50vh;
+}
+
+.section2 .container{
+	padding: 50px 100px;
+}
+
+.section2 .about-img{
+	height: 30vh;
 }
