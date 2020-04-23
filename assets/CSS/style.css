@@ -5,6 +5,10 @@ body{
 	font-family: 'Pacifico', cursive;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 .navbar-wrap .navbar .nav-link{
 	font-size: 24px;
 	color: #000;
@@ -130,86 +134,94 @@ h3{
 }
 
 .box-wrap2{
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    transition: 0.5s;
-    justify-content: space-around;
-    padding: 20px;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	transition: 0.5s;
+	justify-content: space-around;
+	padding: 20px;
 }
 
 .box-wrap2 .card1{
-    width: 250px;
-    position: relative;
-    height: 300px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    box-shadow: 0 0 26px rgba(5, 5, 5, 0.3);
+	width: 250px;
+	position: relative;
+	height: 300px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	box-shadow: 0 0 26px rgba(5, 5, 5, 0.3);
 }
 
 .box-wrap2:hover .card1{
-    filter: blur(5px);
-    transform: scale(0.7);
+	filter: blur(5px);
+	transform: scale(0.7);
 }
 
 .box-wrap2 .card1:hover{
-    filter: blur(0px);
-    transform: scale(1);
+	filter: blur(0px);
+	transform: scale(1);
 }
 
 .box-wrap2 .card1:before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    z-index: 1;
-    transition: 0.5s;
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	z-index: 1;
+	transition: 0.5s;
 }
 
 .box-wrap2 .card1:hover:before{
-    background: #000;
-    transform: scaleY(1.15);
-    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+	background: #000;
+	transform: scaleY(1.15);
+	box-shadow: 0 5px 15px rgba(0,0,0,.2);
 }
 
 .box-wrap2 .card1 .content1{
-    text-align: center;
-    z-index: 2;
-    padding: 0 20px;
-    transition: 0.5s;
+	text-align: center;
+	z-index: 2;
+	padding: 0 20px;
+	transition: 0.5s;
 }
 
 .box-wrap2 .card1:hover .content1{
-    color: #fff;
+	color: #fff;
 }
 
 .box-wrap2 .card1 .content1 h1{
-    font-size: 2em;
-    text-transform: uppercase;
+	font-size: 2em;
+	text-transform: uppercase;
 }
 
 .box-wrap2 .card1 .content1 p{
-    font-size: 0.9em;
+	font-size: 0.9em;
 }
 
 .box-wrap2 .card1 .content1 a{
-    display: inline-block;
-    margin-top: 15px;
-    padding: 5px 10px;
-    background: #262626;
-    color: #fff;
-    text-decoration: none;
+	display: inline-block;
+	margin-top: 15px;
+	padding: 5px 10px;
+	background: #262626;
+	color: #fff;
+	text-decoration: none;
 }
 
 .box-wrap2 .card1:hover .content1 a{
-    background: #2196f3;
+	background: #2196f3;
 }
+
+.image-gallery{
+	margin-bottom: 20px;
+}
+
+/*===============*/
+
+/*===============*/
 
 @media (max-width: 768px) {
 	.section1 .container {
